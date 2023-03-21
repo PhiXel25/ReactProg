@@ -1,14 +1,14 @@
-.card{
+.card {
   border: 10px solid #03A062;
   border-radius: 70px;
   width: 70em;
   height: 70em;
   margin: 50x;
   padding: 50px;
-  
-  }
 
-.card:hover{
+}
+
+.card:hover {
   background-image: linear-gradient(#020204, #204829, #22b455);
   color: white;
   transition: all 0.2s ease-in-out;
@@ -16,8 +16,8 @@
 
 }
 
-.price{
-  border:2px solid #03A062;
+.price {
+  border: 2px solid #03A062;
   border-radius: 50px;
   width: 65.5em;
   height: 23em;
@@ -27,7 +27,7 @@
 
 }
 
-.price:hover{
+.price:hover {
   background-color: black;
   color: green;
   transition: all 0.2s ease-in-out;
@@ -36,21 +36,39 @@
 
 }
 
-.discountTag{
+.discountTag {
   text-decoration: underline;
 }
-.container{
+
+.container {
   background-color: black;
   display: flex;
   flex-wrap: wrap;
 }
 
-.card img{
-  width:100%;
-  height:25em;
+.card img {
+  width: 100%;
+  height: 25em;
   object-fit: contain;
 }
 
-.title{
-text-decoration: underline;
+.title {
+  text-decoration: underline;
+}
+
+.product {
+  text-align: center;
+  object-fit: contain;
+}
+
+.card2 {
+  border: 10px solid #03A062;
+  border-radius: 70px;
+  width: 70em;
+  height: 90em;
+  margin: 50x;
+  padding: 50px;
+  text-align: center;
+  object-fit: contain;
+  object-position: 100%;
 }
