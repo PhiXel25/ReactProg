@@ -1,0 +1,56 @@
+.card{
+  border: 10px solid #03A062;
+  border-radius: 70px;
+  width: 70em;
+  height: 70em;
+  margin: 50x;
+  padding: 50px;
+  
+  }
+
+.card:hover{
+  background-image: linear-gradient(#020204, #204829, #22b455);
+  color: white;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+
+}
+
+.price{
+  border:2px solid #03A062;
+  border-radius: 50px;
+  width: 30em;;
+  height: 2gi0em;
+  margin: 10px;
+  padding: 100px;
+  text-align: center;
+
+}
+
+.price:hover{
+  background-color: black;
+  color: green;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+  object-fit: contain;
+
+}
+
+.discountTag{
+  text-decoration: underline;
+}
+.container{
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card img{
+  width:100%;
+  height:25em;
+  object-fit: contain;
+}
+
+.title{
+text-decoration: underline;
+}
