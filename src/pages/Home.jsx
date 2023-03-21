@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import PrdctCard from "../components/PrdctCard"
 
 function Home() {
 
@@ -13,19 +14,11 @@ function Home() {
 
 
     return (
+        
         <div className="container">
             {posts.map((post, i) =>
-                <div className={"card"} key={i}>
-                    <h1>{post.title}</h1>
-                    <img src={post.images[0]} alt="" />
-                    <div className={"price"} key={i}>
-                        <h3>{post.description}</h3>
-                        <h2>Price: {post.price}</h2>
-                        <div className={"discountTag"}><h1>Discount: {post.discountPercentage}%</h1>
-                        </div>
-                    </div>
-                </div>
-            )}
+                <PrdctCard post={post}>
+                </PrdctCard>)}
         </div>
 
     )
